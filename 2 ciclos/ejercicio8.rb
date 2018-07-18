@@ -3,7 +3,9 @@
 
 a = ''
 10.times do |i|
-	
+	i+=1
+	puts"#{i} impar" if i%2!=0
+	puts "#{i} par" if i%2==0
 end
 
 puts a

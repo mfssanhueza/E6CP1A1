@@ -5,8 +5,14 @@
 #  puts i if 990%i==0
 #end
 
-i=1
-while (i<990) do
-  puts "it #{i}"
-  puts i+=1 if 990%i==0
+#i = 0
+#while (i<991) do
+  #i += 1
+  #puts i if 990%i==0
+#end
+
+i =0
+990.times do
+  i+=1
+  puts i if 990%i==0
 end
